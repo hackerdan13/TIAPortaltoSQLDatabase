@@ -1,4 +1,4 @@
-# TIAPortaltoSQLDatabase
+# Exporting TIAPortal to a SQL Database
 This repository will teach you how to program a VBScript to export data from TIA portal V17 into a SQL Database. This example uses Microsoft's SQL Server Management Studio (SMSS), but I've had success writing data to MySQL 8.2 as well, it just requires a different driver setup. 
 
 <b>Requirements:</b>
@@ -16,6 +16,7 @@ For devices, I used a CPU-1512C-1 PN PLC networked to a TP1900 Comfort Panel HMI
 ![image](https://github.com/hackerdan13/TIAPortaltoSQLDatabase/assets/147435983/2c59d35c-d221-4e4a-a40f-7c3f6c966b55)
 
 To setup the HMI screen, I linked the input values to sliders and the input_read values to I/O fields. I then used a button with an event set to run when pressed to initiate the VBScript. 
+
 ![image](https://github.com/hackerdan13/TIAPortaltoSQLDatabase/assets/147435983/2e902645-8075-4c5e-b41e-b7a7475e4986)
 
 This should be all you need on the TIA portal side, aside from the VBScript. 
