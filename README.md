@@ -1,4 +1,4 @@
-# Exporting TIAPortal to a SQL Database
+# Exporting Prcoess Data from TIA Portal to a SQL Database
 This repository will teach you how to program a VBScript to export data from TIA portal V17 into a SQL Database. This example uses Microsoft's SQL Server Management Studio (SMSS), but I've had success writing data to MySQL 8.2 as well, it just requires a different driver setup. 
 
 <b>Requirements:</b>
